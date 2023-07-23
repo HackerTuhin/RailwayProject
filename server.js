@@ -25,7 +25,7 @@ connection.connect((err) => {
         console.log(err)
     else {
         console.log("Connected to DB")
-        app.listen(3000, 'localhost', () => {
+        app.listen('https://railway-ue30.onrender.com/', () => {
             console.log('listening on port 3000');
         });
     }
