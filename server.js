@@ -25,7 +25,7 @@ connection.connect((err) => {
         console.log(err)
     else {
         console.log("Connected to DB")
-        app.listen(5000,'localhost', () => {
+        app.listen(5000,() => {
             console.log('listening on port 3000');
         });
     }
