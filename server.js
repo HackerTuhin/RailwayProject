@@ -25,7 +25,7 @@ connection.connect((err) => {
         console.log(err)
     else {
         console.log("Connected to DB")
-        app.listen('https://api.render.com/deploy/srv-ciuk4295rnuhcnu909c0?key=ViAGh35qCv4', () => {
+        app.listen(8080,'localhost', () => {
             console.log('listening on port 3000');
         });
     }
